@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity">
+
+    <!-- Centered Icon -->
+    <ImageView
+        android:id="@+id/appIconImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <!-- Header Text -->
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz App"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black_text"
+        android:layout_below="@id/appIconImageView"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Start Quiz Button -->
+    <Button
+        android:id="@+id/startQuizButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:background="@color/button_color"
+        android:textColor="@color/black_text"
+        android:textSize="18sp"
+        android:layout_below="@id/headerTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+</RelativeLayout>

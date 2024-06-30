@@ -1,0 +1,5 @@
+<resources>
+    <color name="background_color">#E4C1F9</color> <!-- Light purple background -->
+    <color name="button_color">#BAA0FF</color> <!-- Button color -->
+    <color name="black_text">#000000</color> <!-- Black text -->
+</resources>
