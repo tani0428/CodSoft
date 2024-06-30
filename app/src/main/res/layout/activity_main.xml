@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/soothingBackground"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quote For Life"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/quoteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Welcome to Quote of the Day!"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/refreshButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh Quote"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Quote"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/favoriteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorite Quote"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/viewFavoritesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Favorite Quotes"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/newQuoteEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your quote"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/authorNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/addQuoteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Quote"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/viewMyQuotesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View My Quotes"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>
